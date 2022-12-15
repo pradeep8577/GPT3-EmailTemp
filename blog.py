@@ -7,7 +7,7 @@ openai.api_key = config.OPENAI_API_KEY
 
 def generateBlogTopics(prompt1):
     response = openai.Completion.create(
-        engine="davinci-instruct-beta-v3",
+        engine="text-davinci-003",
         prompt="Write a cold email to potential clients about: {}.".format(prompt1),
         temperature=0.7,
         max_tokens=200,
