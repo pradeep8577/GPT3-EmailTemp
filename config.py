@@ -2,7 +2,7 @@ from logging import DEBUG
 from flask import config
 
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 class Config(object):
     DEBUG = True
